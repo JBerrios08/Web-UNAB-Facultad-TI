@@ -10,28 +10,53 @@
             font-size: 2.5rem;
             font-weight: bold;
         }
+        #imagen-aleatoria {
+            max-width: 50%;
+            height: auto;
+        }
     </style>
     <script>
-        const frases = [
-            "🧠 Cuidar de tu mente es tan importante como cuidar de tu cuerpo.",
-            "💬 Hablar sobre tus emociones no es un signo de debilidad, es un acto de valentía.",
-            "🌱 El bienestar mental es la base para una vida plena y equilibrada.",
-            "🛌 Tomar un descanso también es parte del progreso.",
-            "❤️ La salud mental importa, hoy, mañana y siempre.",
-            "🤝 No estás solo, pide ayuda si lo necesitas.",
-            "🚶‍♂️ Cada paso hacia el autocuidado es un paso hacia una mejor versión de ti.",
-            "🏞️ La salud mental no es un destino, es un proceso continuo.",
-            "🧘‍♂️ Tu mente también necesita tiempo para descansar, cuídala.",
-            "💪 Está bien no estar bien. Lo importante es buscar el apoyo que necesitas.",
-            "🗓️ Un día a la vez, y con cada día que pasa, cuida tu bienestar emocional.",
-            "⏳ Las emociones difíciles no durarán para siempre, mantente fuerte.",
-            "👂 Escuchar a los demás también es cuidar la salud mental.",
-            "💖 La autocompasión es el primer paso hacia la sanación.",
-            "⚡ Tu salud mental es tu superpoder más grande, protégelo.",
-            "🛡️ El autocuidado no es egoísta, es esencial para una mente sana.",
-            "🌈 El estrés es real, pero también lo es la esperanza y el apoyo.",
-            "🧘‍♀️ La meditación y la respiración consciente son aliados para una mente clara.",
-            "🗣️ La prevención comienza con la conversación, hablemos de salud mental."
+        const frasesConImagenes = [
+            {
+                frase: "🧠 Cuidar de tu mente es tan importante como cuidar de tu cuerpo.",
+                imagen: "img/1.jpg"
+            },
+            {
+                frase: "💬 Hablar sobre tus emociones no es un signo de debilidad, es un acto de valentía.",
+                imagen: "img/2.jpg"
+            },
+            {
+                frase: "🌱 El bienestar mental es la base para una vida plena y equilibrada.",
+                imagen: "img/3.jpg"
+            },
+            {
+                frase: "🛌 Tomar un descanso también es parte del progreso.",
+                imagen: "img/4.jpg"
+            },
+            {
+                frase: "❤️ La salud mental importa, hoy, mañana y siempre.",
+                imagen: "img/5.jpg"
+            },
+            {
+                frase: "🤝 No estás solo, pide ayuda si lo necesitas.",
+                imagen: "img/6.jpg"
+            },
+            {
+                frase: "🚶‍♂️ Cada paso hacia el autocuidado es un paso hacia una mejor versión de ti.",
+                imagen: "img/7.jpg"
+            },
+            {
+                frase: "🏞️ La salud mental no es un destino, es un proceso continuo.",
+                imagen: "img/8.jpg"
+            },
+            {
+                frase: "🧘‍♂️ Tu mente también necesita tiempo para descansar, cuídala.",
+                imagen: "img/9.jpg"
+            },
+            {
+                frase: "💪 Está bien no estar bien. Lo importante es buscar el apoyo que necesitas.",
+                imagen: "img/10.jpg"
+            }
         ];
 
         const colores = [
@@ -40,10 +65,14 @@
             "#FFECB3", "#FFE0B2", "#FFCCBC", "#D7CCC8", "#F5F5F5", "#CFD8DC"
         ];
 
-        function mostrarFrase() {
-            const indiceFrase = Math.floor(Math.random() * frases.length);
+        function mostrarFraseConImagen() {
+            const indice = Math.floor(Math.random() * frasesConImagenes.length);
+            const fraseSeleccionada = frasesConImagenes[indice];
+
+            document.getElementById('frase').innerText = fraseSeleccionada.frase;
+            document.getElementById('imagen-aleatoria').src = fraseSeleccionada.imagen;
+
             const indiceColor = Math.floor(Math.random() * colores.length);
-            document.getElementById('frase').innerText = frases[indiceFrase];
             document.body.style.backgroundColor = colores[indiceColor];
         }
     </script>
@@ -51,8 +80,10 @@
 <body class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
     <div class="text-center">
         <h1 class="mb-4">Bienvenid@</h1>
+        <img id="imagen-aleatoria" class="img-fluid rounded mb-4" alt="Imagen aleatoria">
+        
         <p id="frase" class="mb-4">Haz clic en el botón para obtener una frase sobre salud mental.</p>
-        <button class="btn btn-primary btn-lg" onclick="mostrarFrase()">Mostrar Frase</button>
+        <button class="btn btn-primary btn-lg" onclick="mostrarFraseConImagen()">Mostrar Frase</button>
     </div>
 </body>
 </html>
