@@ -1,32 +1,3 @@
-/******************************************************************
-  Template Name: Dreams
-  Description: Dreams wedding template
-  Author: Colorib
-  Author URI: https://colorlib.com/
-  Version: 1.0
-  Created: Colorib
-******************************************************************/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1.  Template default CSS
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Helper Css
-3.  Header Section
-4.  Hero Section
-5.  Services Section
-6.  Counter Section
-7.  Team Section
-8.  Latest Section
-9.  Contact
-10.  Footer Style
--------------------------------------------------------------------*/
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 html,
 body {
   height: 100%;
@@ -117,7 +88,7 @@ ol {
   margin: 0 auto;
 }
 .section-title span {
-  color: #efd822;
+  color: #fff;
   display: block;
   font-size: 16px;
   letter-spacing: 2px;
@@ -125,7 +96,7 @@ ol {
   margin-bottom: 6px;
 }
 .section-title h2 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -172,7 +143,7 @@ ol {
   font-family: "Play", sans-serif;
   font-weight: 700;
   padding: 14px 32px 12px;
-  color: #efd822;
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -217,7 +188,7 @@ ol {
 
 .site-btn {
   font-size: 15px;
-  color: #efd822;
+  color: #fff;
   background: #86bf5c;
   font-family: "Play", sans-serif;
   font-weight: 700;
@@ -348,7 +319,7 @@ ol {
   left: 0;
   top: 60px;
   width: 140px;
-  background: #efd822;
+  background: #fff;
   text-align: left;
   padding: 2px 0;
   z-index: 9;
@@ -374,7 +345,7 @@ ol {
 .header__nav__menu ul li a {
   font-size: 15px;
   font-family: "Play", sans-serif;
-  color: #efd822;
+  color: #fff;
   display: block;
   text-transform: uppercase;
   position: relative;
@@ -411,7 +382,7 @@ ol {
   content: "";
 }
 .header__nav__social a {
-  color: #efd822;
+  color: #fff;
   font-size: 15px;
   margin-right: 18px;
 }
@@ -456,10 +427,10 @@ ol {
   display: inline-block;
 }
 .hero__slider.owl-carousel .owl-dots button.active {
-  color: #efd822;
+  color: #fff;
 }
 .hero__slider.owl-carousel .owl-dots button.active:after {
-  background: #efd822;
+  background: #fff;
   height: 2px;
 }
 .hero__slider.owl-carousel .owl-dots button:after {
@@ -481,7 +452,7 @@ ol {
 }
 
 .hero__text span {
-  color: #efd822;
+  color: #fff;
   display: block;
   font-size: 15px;
   letter-spacing: 2px;
@@ -495,7 +466,7 @@ ol {
   transition: all, 0.3s;
 }
 .hero__text h2 {
-  color: #efd822;
+  color: #fff;
   font-size: 60px;
   font-weight: 700;
   line-height: 70px;
@@ -560,7 +531,7 @@ ol {
 }
 .work__item .play-btn {
   display: inline-block;
-  color: #efd822;
+  color: #fff;
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -587,7 +558,7 @@ ol {
 }
 .work__item__hover h4 {
   font-size: 22px;
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
 }
 .work__item__hover ul li {
@@ -690,13 +661,13 @@ ol {
 }
 .counter__item__text h2 {
   font-size: 60px;
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 6px;
   margin-top: 18px;
 }
 .counter__item__text p {
-  color: #efd822;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -753,18 +724,18 @@ ol {
 }
 .team__item__text h4 {
   font-size: 22px;
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .team__item__text p {
-  color: #efd822;
+  color: #fff;
   font-weight: 300px;
   margin-bottom: 12px;
 }
 .team__item__text .team__item__social a {
-  color: #efd822;
+  color: #fff;
   display: inline-block;
   font-size: 15px;
   margin-right: 18px;
@@ -829,7 +800,7 @@ ol {
 }
 
 .callto__text h2 {
-  color: #efd822;
+  color: #fff;
   font-size: 42px;
   font-weight: 700;
   line-height: 55px;
@@ -837,13 +808,13 @@ ol {
 }
 .callto__text p {
   font-size: 15px;
-  color: #efd822;
+  color: #fff;
   opacity: 0.7;
   text-transform: uppercase;
   margin-bottom: 55px;
 }
 .callto__text a {
-  color: #efd822;
+  color: #fff;
   background: #86bf5c;
   font-size: 15px;
   font-weight: 700;
@@ -879,7 +850,7 @@ ol {
 .footer__top__social a {
   display: inline-block;
   font-size: 15px;
-  color: #efd822;
+  color: #fff;
   height: 40px;
   width: 40px;
   background: rgba(255, 255, 255, 0.1);
@@ -901,7 +872,7 @@ ol {
   margin-bottom: 35px;
 }
 .footer__option__item h5 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 35px;
 }
@@ -911,11 +882,11 @@ ol {
 }
 .footer__option__item .read__more {
   font-size: 16px;
-  color: #efd822;
+  color: #fff;
 }
 .footer__option__item .read__more span {
   font-size: 16px;
-  color: #efd822;
+  color: #fff;
   opacity: 0.5;
   position: relative;
   top: 4px;
@@ -959,7 +930,7 @@ ol {
 }
 .footer__option__item form button {
   font-size: 20px;
-  color: #efd822;
+  color: #fff;
   border: none;
   height: 50px;
   width: 50px;
@@ -995,7 +966,7 @@ ol {
 }
 
 .breadcrumb__text h2 {
-  color: #efd822;
+  color: #fff;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -1003,7 +974,7 @@ ol {
 
 .breadcrumb__links a {
   font-size: 16px;
-  color: #efd822;
+  color: #fff;
   font-weight: 300;
   display: inline-block;
   margin-right: 32px;
@@ -1088,7 +1059,7 @@ ol {
   z-index: 9;
 }
 .testimonial__text P {
-  color: #efd822;
+  color: #fff;
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
@@ -1114,12 +1085,12 @@ ol {
   overflow: hidden;
 }
 .testimonial__author__text h5 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 8px;
 }
 .testimonial__author__text span {
-  color: #efd822;
+  color: #fff;
   font-size: 14px;
   font-weight: 300px;
   display: inline-block;
@@ -1147,7 +1118,7 @@ ol {
       transform: rotate(45deg);
 }
 .services__item h4 {
-  color: #efd822;
+  color: #fff;
   font-size: 22px;
   font-weight: 700;
   margin-top: 26px;
@@ -1247,7 +1218,7 @@ ol {
 }
 .portfolio__item__video .play-btn {
   display: inline-block;
-  color: #efd822;
+  color: #fff;
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -1261,7 +1232,7 @@ ol {
   text-align: center;
 }
 .portfolio__item__text h4 {
-  color: #efd822;
+  color: #fff;
   display: inline-block;
   font-size: 22px;
   font-weight: 700;
@@ -1318,7 +1289,7 @@ ol {
 }
 .pagination__option .arrow__pagination {
   font-size: 15px;
-  color: #efd822;
+  color: #fff;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -1333,7 +1304,7 @@ ol {
 }
 .pagination__option .number__pagination {
   font-size: 18px;
-  color: #efd822;
+  color: #fff;
   height: 50px;
   width: 50px;
   background: rgba(242, 242, 242, 0.1);
@@ -1363,13 +1334,13 @@ ol {
   background-size: cover;
 }
 .blog__item:hover ul li {
-  color: #efd822;
+  color: #fff;
 }
 .blog__item:hover p {
-  color: #efd822;
+  color: #fff;
 }
 .blog__item h4 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   line-height: 31px;
   margin-bottom: 18px;
@@ -1405,11 +1376,11 @@ ol {
 }
 .blog__item a {
   font-size: 16px;
-  color: #efd822;
+  color: #fff;
 }
 .blog__item a span {
   font-size: 16px;
-  color: #efd822;
+  color: #fff;
   opacity: 0.5;
   position: relative;
   top: 4px;
@@ -1427,7 +1398,7 @@ ol {
   text-align: center;
 }
 .blog__hero__text h2 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
@@ -1435,7 +1406,7 @@ ol {
 }
 .blog__hero__text ul li {
   font-size: 14px;
-  color: #efd822;
+  color: #fff;
   font-weight: 300;
   list-style: none;
   display: inline-block;
@@ -1496,7 +1467,7 @@ ol {
   color: #f7f5f5;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #efd822;
+  color: #fff;
 }
 .blog__details__quote i {
   font-size: 36px;
@@ -1527,14 +1498,14 @@ ol {
 .blog__details__tags span {
   display: inline-block;
   font-size: 15px;
-  color: #efd822;
+  color: #fff;
   font-weight: 300;
   margin-right: 25px;
 }
 .blog__details__tags a {
   font-size: 16px;
   font-weight: 300;
-  color: #efd822;
+  color: #fff;
   display: inline-block;
   margin-right: 11px;
   padding: 8px 15px 7px;
@@ -1552,7 +1523,7 @@ ol {
   display: block;
 }
 .blog__details__option__item h5 {
-  color: #efd822;
+  color: #fff;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1589,7 +1560,7 @@ ol {
   overflow: hidden;
 }
 .blog__details__option__item__text h6 {
-  color: #efd822;
+  color: #fff;
   line-height: 21px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1604,7 +1575,7 @@ ol {
   margin-bottom: 60px;
 }
 .blog__details__recent h4 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1619,7 +1590,7 @@ ol {
   margin-bottom: 20px;
 }
 .blog__details__recent__item h5 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   line-height: 23px;
   margin-bottom: 4px;
@@ -1631,7 +1602,7 @@ ol {
 }
 
 .blog__details__comment h4 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1699,7 +1670,7 @@ ol {
 }
 .contact__widget__item__icon i {
   font-size: 30px;
-  color: #efd822;
+  color: #fff;
 }
 
 .contact__widget__item__text {
@@ -1708,7 +1679,7 @@ ol {
 }
 .contact__widget__item__text h4 {
   font-size: 22px;
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -1733,7 +1704,7 @@ ol {
 }
 
 .contact__form h3 {
-  color: #efd822;
+  color: #fff;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1912,7 +1883,7 @@ ol {
 .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
-    color: #efd822;
+    color: #fff;
     font-weight: 600;
   }
 
@@ -2034,7 +2005,7 @@ ol {
 .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
-    color: #efd822;
+    color: #fff;
     font-weight: 600;
   }
 
