@@ -51,7 +51,7 @@ p {
 }
 
 img {
-  max-width: 100%;
+  max-width: 150%;
 }
 
 input:focus,
@@ -467,7 +467,7 @@ ol {
 }
 .hero__text h2 {
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;

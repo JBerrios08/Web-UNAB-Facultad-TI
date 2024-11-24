@@ -1,0 +1,16 @@
+# Activar reescritura de URLs (si no está activado)
+RewriteEngine On
+
+# Asegurar que el sitemap sea accesible
+<Files "sitemap.xml">
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Otras reglas que puedes necesitar para tu sitio
+# Evitar el acceso directo a archivos ocultos (comienza con .)
+RewriteRule ^\. [F]
+
+# Redirigir a www (opcional, si prefieres que tu sitio siempre use www)
+RewriteCond %{HTTP_HOST} ^jaifer\.click$ [NC]
+RewriteRule ^(.*)$ http://www.jaifer.click/$1 [L,R=301]

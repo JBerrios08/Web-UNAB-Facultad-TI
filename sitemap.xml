@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Página principal -->
+  <url>
+    <loc>https://jaifer.click/</loc>
+    <lastmod>2024-11-24T20:21:54+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <!-- Acerca de -->
+  <url>
+    <loc>https://jaifer.click/about.html</loc>
+    <lastmod>2024-11-24T20:21:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <!-- Portafolio -->
+  <url>
+    <loc>https://jaifer.click/portfolio.html</loc>
+    <lastmod>2024-11-24T20:21:54+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <!-- Servicios -->
+  <url>
+    <loc>https://jaifer.click/services.html</loc>
+    <lastmod>2024-11-24T20:21:54+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.90</priority>
+  </url>
+  <!-- Carrera -->
+  <url>
+    <loc>https://jaifer.click/carrera1.html</loc>
+    <lastmod>2024-11-24T20:21:50+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
+</urlset>
