@@ -117,7 +117,7 @@ ol {
   margin: 0 auto;
 }
 .section-title span {
-  color: #ffffff;
+  color: #efd822;
   display: block;
   font-size: 16px;
   letter-spacing: 2px;
@@ -125,7 +125,7 @@ ol {
   margin-bottom: 6px;
 }
 .section-title h2 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   text-transform: uppercase;
   position: relative;
@@ -172,7 +172,7 @@ ol {
   font-family: "Play", sans-serif;
   font-weight: 700;
   padding: 14px 32px 12px;
-  color: #ffffff;
+  color: #efd822;
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
@@ -217,7 +217,7 @@ ol {
 
 .site-btn {
   font-size: 15px;
-  color: #ffffff;
+  color: #efd822;
   background: #86bf5c;
   font-family: "Play", sans-serif;
   font-weight: 700;
@@ -257,36 +257,36 @@ ol {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    border: 4px solid #f44336;
+    border: 4px solid #00407e;
     border-left-color: transparent;
   }
   50% {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
-    border: 4px solid #673ab7;
+    border: 4px solid #86bf5c;
     border-left-color: transparent;
   }
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
-    border: 4px solid #f44336;
+    border: 4px solid #00407e;
     border-left-color: transparent;
   }
 }
 @-webkit-keyframes loader {
   0% {
     -webkit-transform: rotate(0deg);
-    border: 4px solid #f44336;
+    border: 4px solid #00407e;
     border-left-color: transparent;
   }
   50% {
     -webkit-transform: rotate(180deg);
-    border: 4px solid #673ab7;
+    border: 4px solid #86bf5c;
     border-left-color: transparent;
   }
   100% {
     -webkit-transform: rotate(360deg);
-    border: 4px solid #f44336;
+    border: 4px solid #00407e;
     border-left-color: transparent;
   }
 }
@@ -348,7 +348,7 @@ ol {
   left: 0;
   top: 60px;
   width: 140px;
-  background: #ffffff;
+  background: #efd822;
   text-align: left;
   padding: 2px 0;
   z-index: 9;
@@ -374,7 +374,7 @@ ol {
 .header__nav__menu ul li a {
   font-size: 15px;
   font-family: "Play", sans-serif;
-  color: #ffffff;
+  color: #efd822;
   display: block;
   text-transform: uppercase;
   position: relative;
@@ -411,7 +411,7 @@ ol {
   content: "";
 }
 .header__nav__social a {
-  color: #ffffff;
+  color: #efd822;
   font-size: 15px;
   margin-right: 18px;
 }
@@ -456,10 +456,10 @@ ol {
   display: inline-block;
 }
 .hero__slider.owl-carousel .owl-dots button.active {
-  color: #ffffff;
+  color: #efd822;
 }
 .hero__slider.owl-carousel .owl-dots button.active:after {
-  background: #ffffff;
+  background: #efd822;
   height: 2px;
 }
 .hero__slider.owl-carousel .owl-dots button:after {
@@ -481,7 +481,7 @@ ol {
 }
 
 .hero__text span {
-  color: #ffffff;
+  color: #efd822;
   display: block;
   font-size: 15px;
   letter-spacing: 2px;
@@ -495,7 +495,7 @@ ol {
   transition: all, 0.3s;
 }
 .hero__text h2 {
-  color: #ffffff;
+  color: #efd822;
   font-size: 60px;
   font-weight: 700;
   line-height: 70px;
@@ -560,7 +560,7 @@ ol {
 }
 .work__item .play-btn {
   display: inline-block;
-  color: #ffffff;
+  color: #efd822;
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -587,7 +587,7 @@ ol {
 }
 .work__item__hover h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
 }
 .work__item__hover ul li {
@@ -690,13 +690,13 @@ ol {
 }
 .counter__item__text h2 {
   font-size: 60px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   margin-bottom: 6px;
   margin-top: 18px;
 }
 .counter__item__text p {
-  color: #ffffff;
+  color: #efd822;
   margin-bottom: 0;
 }
 
@@ -753,18 +753,18 @@ ol {
 }
 .team__item__text h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 .team__item__text p {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 300px;
   margin-bottom: 12px;
 }
 .team__item__text .team__item__social a {
-  color: #ffffff;
+  color: #efd822;
   display: inline-block;
   font-size: 15px;
   margin-right: 18px;
@@ -829,7 +829,7 @@ ol {
 }
 
 .callto__text h2 {
-  color: #ffffff;
+  color: #efd822;
   font-size: 42px;
   font-weight: 700;
   line-height: 55px;
@@ -837,13 +837,13 @@ ol {
 }
 .callto__text p {
   font-size: 15px;
-  color: #ffffff;
+  color: #efd822;
   opacity: 0.7;
   text-transform: uppercase;
   margin-bottom: 55px;
 }
 .callto__text a {
-  color: #ffffff;
+  color: #efd822;
   background: #86bf5c;
   font-size: 15px;
   font-weight: 700;
@@ -879,7 +879,7 @@ ol {
 .footer__top__social a {
   display: inline-block;
   font-size: 15px;
-  color: #ffffff;
+  color: #efd822;
   height: 40px;
   width: 40px;
   background: rgba(255, 255, 255, 0.1);
@@ -901,7 +901,7 @@ ol {
   margin-bottom: 35px;
 }
 .footer__option__item h5 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   margin-bottom: 35px;
 }
@@ -911,11 +911,11 @@ ol {
 }
 .footer__option__item .read__more {
   font-size: 16px;
-  color: #ffffff;
+  color: #efd822;
 }
 .footer__option__item .read__more span {
   font-size: 16px;
-  color: #ffffff;
+  color: #efd822;
   opacity: 0.5;
   position: relative;
   top: 4px;
@@ -959,7 +959,7 @@ ol {
 }
 .footer__option__item form button {
   font-size: 20px;
-  color: #ffffff;
+  color: #efd822;
   border: none;
   height: 50px;
   width: 50px;
@@ -995,7 +995,7 @@ ol {
 }
 
 .breadcrumb__text h2 {
-  color: #ffffff;
+  color: #efd822;
   font-size: 50px;
   font-weight: 700;
   margin-bottom: 12px;
@@ -1003,7 +1003,7 @@ ol {
 
 .breadcrumb__links a {
   font-size: 16px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 300;
   display: inline-block;
   margin-right: 32px;
@@ -1045,7 +1045,7 @@ ol {
   padding-left: 30px;
 }
 .about__text .services__item .services__item__icon:after {
-  border-color: #281A3E;
+  border-color: #86bf5c;
 }
 
 .about__text__desc {
@@ -1088,7 +1088,7 @@ ol {
   z-index: 9;
 }
 .testimonial__text P {
-  color: #ffffff;
+  color: #efd822;
   font-size: 18px;
   font-weight: 300;
   font-style: italic;
@@ -1114,12 +1114,12 @@ ol {
   overflow: hidden;
 }
 .testimonial__author__text h5 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   margin-bottom: 8px;
 }
 .testimonial__author__text span {
-  color: #ffffff;
+  color: #efd822;
   font-size: 14px;
   font-weight: 300px;
   display: inline-block;
@@ -1147,7 +1147,7 @@ ol {
       transform: rotate(45deg);
 }
 .services__item h4 {
-  color: #ffffff;
+  color: #efd822;
   font-size: 22px;
   font-weight: 700;
   margin-top: 26px;
@@ -1247,7 +1247,7 @@ ol {
 }
 .portfolio__item__video .play-btn {
   display: inline-block;
-  color: #ffffff;
+  color: #efd822;
   font-size: 20px;
   height: 50px;
   width: 50px;
@@ -1261,7 +1261,7 @@ ol {
   text-align: center;
 }
 .portfolio__item__text h4 {
-  color: #ffffff;
+  color: #efd822;
   display: inline-block;
   font-size: 22px;
   font-weight: 700;
@@ -1318,7 +1318,7 @@ ol {
 }
 .pagination__option .arrow__pagination {
   font-size: 15px;
-  color: #ffffff;
+  color: #efd822;
   display: inline-block;
   text-transform: uppercase;
 }
@@ -1333,7 +1333,7 @@ ol {
 }
 .pagination__option .number__pagination {
   font-size: 18px;
-  color: #ffffff;
+  color: #efd822;
   height: 50px;
   width: 50px;
   background: rgba(242, 242, 242, 0.1);
@@ -1363,13 +1363,13 @@ ol {
   background-size: cover;
 }
 .blog__item:hover ul li {
-  color: #ffffff;
+  color: #efd822;
 }
 .blog__item:hover p {
-  color: #ffffff;
+  color: #efd822;
 }
 .blog__item h4 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   line-height: 31px;
   margin-bottom: 18px;
@@ -1405,11 +1405,11 @@ ol {
 }
 .blog__item a {
   font-size: 16px;
-  color: #ffffff;
+  color: #efd822;
 }
 .blog__item a span {
   font-size: 16px;
-  color: #ffffff;
+  color: #efd822;
   opacity: 0.5;
   position: relative;
   top: 4px;
@@ -1427,7 +1427,7 @@ ol {
   text-align: center;
 }
 .blog__hero__text h2 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   line-height: 47px;
   text-transform: uppercase;
@@ -1435,7 +1435,7 @@ ol {
 }
 .blog__hero__text ul li {
   font-size: 14px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 300;
   list-style: none;
   display: inline-block;
@@ -1496,7 +1496,7 @@ ol {
   color: #f7f5f5;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #efd822;
 }
 .blog__details__quote i {
   font-size: 36px;
@@ -1527,14 +1527,14 @@ ol {
 .blog__details__tags span {
   display: inline-block;
   font-size: 15px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 300;
   margin-right: 25px;
 }
 .blog__details__tags a {
   font-size: 16px;
   font-weight: 300;
-  color: #ffffff;
+  color: #efd822;
   display: inline-block;
   margin-right: 11px;
   padding: 8px 15px 7px;
@@ -1552,7 +1552,7 @@ ol {
   display: block;
 }
 .blog__details__option__item h5 {
-  color: #ffffff;
+  color: #efd822;
   font-size: 15px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1589,7 +1589,7 @@ ol {
   overflow: hidden;
 }
 .blog__details__option__item__text h6 {
-  color: #ffffff;
+  color: #efd822;
   line-height: 21px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -1604,7 +1604,7 @@ ol {
   margin-bottom: 60px;
 }
 .blog__details__recent h4 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1619,7 +1619,7 @@ ol {
   margin-bottom: 20px;
 }
 .blog__details__recent__item h5 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   line-height: 23px;
   margin-bottom: 4px;
@@ -1631,7 +1631,7 @@ ol {
 }
 
 .blog__details__comment h4 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1699,7 +1699,7 @@ ol {
 }
 .contact__widget__item__icon i {
   font-size: 30px;
-  color: #ffffff;
+  color: #efd822;
 }
 
 .contact__widget__item__text {
@@ -1708,7 +1708,7 @@ ol {
 }
 .contact__widget__item__text h4 {
   font-size: 22px;
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -1733,7 +1733,7 @@ ol {
 }
 
 .contact__form h3 {
-  color: #ffffff;
+  color: #efd822;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 35px;
@@ -1912,7 +1912,7 @@ ol {
 .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
-    color: #ffffff;
+    color: #efd822;
     font-weight: 600;
   }
 
@@ -2034,7 +2034,7 @@ ol {
 .slicknav_nav a {
     padding: 7px 0;
     margin: 0;
-    color: #ffffff;
+    color: #efd822;
     font-weight: 600;
   }
 
