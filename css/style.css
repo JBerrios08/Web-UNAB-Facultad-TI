@@ -1000,7 +1000,7 @@ ol {
 -----------------------*/
 .about {
   background: #00407e;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 
 .about__pic__item {
@@ -1661,7 +1661,7 @@ ol {
 .contact__widget__item__icon {
   height: 70px;
   width: 70px;
-  border: 1px solid rgba(225, 225, 225, 0.5);
+  border: 1px solid #86bf5c;
   line-height: 80px;
   text-align: center;
   border-radius: 50%;
@@ -1670,7 +1670,7 @@ ol {
 }
 .contact__widget__item__icon i {
   font-size: 30px;
-  color: #fff;
+  color: #86bf5c;
 }
 
 .contact__widget__item__text {
